@@ -1,37 +1,46 @@
 .nav {
-    display: flex;
-    gap:24px;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  .link {
-    color: rgb(16, 24, 40);
-   
-  }
-  
-  .link:hover {
-    color: rgb(216, 67, 67);
-  }
-  
-  .active {
-    color: rgb(216, 67, 67);
-  }
-  .container{
-width: 100%;
-height: 24px;
-display: flex;
-gap:450px;
-justify-content: flex-start;
-flex-direction: row;
-align-items: center;
-padding: 24px 64px 24px 64px;
-  }
-.icon{
-    width: 136px;
-    height: 16px;
-   
+  display: flex;
+  gap: 24px;
+  margin: auto;
+  text-align: center;
+}
+.navLink {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  line-height: 16px;
+  height: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.link {
+  color: rgb(16, 24, 40);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.link:hover {
+  color: rgb(216, 67, 67);
+}
+
+.active {
+  color: rgb(216, 67, 67);
+}
+.container {
+  background: rgb(247, 247, 247);
+  position: relative;
+  height: 24px;
+  display: flex;
+  gap: 450px;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 64px 24px 64px;
+}
+.icon {
+  width: 136px;
+  height: 16px;
 }
