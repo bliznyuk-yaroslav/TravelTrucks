@@ -1,7 +1,6 @@
 import Layout from '../Layout/Layout';
 import { Route, Routes } from 'react-router-dom';
 import { lazy } from 'react';
-import css from './App.module.css';
 const HomePage = lazy(() => import('../../pages/HomePage/HomePage'));
 const CalatogPage = lazy(() => import('../../pages/CatalogPage/CatalogPage'));
 const NotFoundPage = lazy(
