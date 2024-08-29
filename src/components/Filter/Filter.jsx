@@ -5,14 +5,7 @@ export default function Filter() {
       <div>
         <label htmlFor="">Location</label>
         <div>
-          <Icon />
-          <select
-          value={location}
-          placeholder='Choose location'
-          onChange={}
-          
-          
-          />
+          <select value={location} placeholder="Choose location" />
         </div>
       </div>
     </div>

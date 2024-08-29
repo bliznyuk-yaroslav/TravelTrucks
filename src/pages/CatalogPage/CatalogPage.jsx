@@ -1,4 +1,4 @@
-import css from './Catalog.module.css';
+import css from './CatalogPage.module.css';
 import Filter from '../../components/Filter/Filter';
 import CampersList from '../../components/CampersList/CampersList';
 import DetailModal from '../../components/DetailModal/DetaitModal';
