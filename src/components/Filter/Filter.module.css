@@ -1,0 +1,35 @@
+.container {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 48px;
+}
+.locationLab {
+  color: rgb(71, 84, 103);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.locationInput {
+  width: 360px;
+  height: 56px;
+  background: rgb(247, 247, 247);
+  border-radius: 12px;
+  border-color: transparent;
+  color: var(--black);
+  margin-top: 8px;
+}
+.locationIcon {
+  fill: black;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+.inputWrapper {
+  width: 100%;
+  position: relative;
+}

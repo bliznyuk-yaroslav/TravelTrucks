@@ -1,4 +1,4 @@
-import sprite from '../assets/sprite.svg';
+import sprite from '../image/sprite/sprite.svg';
 import PropTypes from 'prop-types';
 
 const Icon = ({ width, height, iconName, styles, style, onClick }) => {
