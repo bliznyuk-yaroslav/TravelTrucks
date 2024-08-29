@@ -11,8 +11,8 @@ export default function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/catalog" element={<CalatogPage />} />
-        <Route path="*" element={<NotFoundPage />} /> */}
+        <Route path="/catalog" element={<CalatogPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Layout>
   );

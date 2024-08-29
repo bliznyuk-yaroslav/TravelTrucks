@@ -13,7 +13,7 @@ a:hover {
 body {
   margin: 0 auto;
   place-items: center;
-  width: 1440px;
+  width: 100%;
 }
 
 h1 {
@@ -29,4 +29,16 @@ button {
   }
   button {
   }
+}
+@media screen and (min-width: 320px) and (max-width: 375px){
+
+}
+
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 1440px){
+  
 }
