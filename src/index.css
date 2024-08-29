@@ -1,18 +1,9 @@
 :root {
-  font-family: "Inter", sans-serif;
-  color-scheme: light dark;
+  font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
@@ -23,12 +14,9 @@ body {
   margin: 0 auto;
   place-items: center;
   width: 1440px;
-  background: rgb(247, 247, 247);
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {
@@ -37,13 +25,8 @@ button {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
-  }
   button {
-    background-color: #f9f9f9;
   }
 }

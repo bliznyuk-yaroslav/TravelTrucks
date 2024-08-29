@@ -9,7 +9,7 @@ const getNavLinkClass = ({ isActive }) => {
 export default function Navigation() {
   return (
     <div className={css.container}>
-      <NavLink className={css.navLink}>
+      <NavLink to="/" className={css.navLink}>
         <svg className={css.icon}>
           <use href={`${sprite}#TravelTrucks`}></use>
         </svg>
