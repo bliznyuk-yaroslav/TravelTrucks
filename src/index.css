@@ -1,6 +1,8 @@
 :root {
   font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.87);
+  max-width: 1440px;
+margin: 0 auto;
 }
 
 a {
@@ -15,7 +17,9 @@ body {
   place-items: center;
   width: 100%;
 }
-
+ul{
+  padding: 0;
+}
 h1 {
 }
 
@@ -39,7 +43,7 @@ button {
 }
 @media screen and (min-width: 1440px) {
   body {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 }
