@@ -4,7 +4,7 @@ import CampersList from '../../components/CampersList/CampersList';
 import DetailModal from '../../components/DetailModal/DetaitModal';
 export default function CatalogPage() {
   return (
-    <div className={css.container}>
+    <div className={css.page}>
       <Filter></Filter>
       <CampersList></CampersList>
       <DetailModal></DetailModal>
